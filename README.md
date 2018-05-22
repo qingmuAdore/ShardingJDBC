@@ -1,0 +1,2 @@
+# ShardingJDBC
+learn  sharding-jdbc
