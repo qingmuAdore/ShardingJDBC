@@ -54,7 +54,11 @@ public class DemoService {
         }
         List<OrderItem> orderItems = orderItemRepository.findAll();
         System.out.println(orderItemRepository.findAll());
+
+
         System.out.println("2.Delete--------------");
+
+
         if (orderItems.size() > 0) {
             for (Long each : orderItemIds) {
                 orderItemRepository.delete(each);
